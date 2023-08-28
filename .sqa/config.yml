@@ -15,50 +15,50 @@ sqa_criteria:
     repos:
       github.com/stevenjgibbons/VIScERaL git:
         commands:
-        - /usr/bin/env sh .sqa/script.bluesy-purple-seahorse.sh
-        container: qc.acc_beady-mustard-mouse
+        - /usr/bin/env sh .sqa/script.dorky-ochre-frigatebird.sh
+        container: qc.acc_goopy-cyan-tarantula
   QC.Doc:
     repos:
       github.com/stevenjgibbons/VIScERaL find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.paltry-xanthic-tapir.sh
-        container: qc.doc_thirsty-cornflower-dhole
+        - /usr/bin/env sh .sqa/script.frumpy-taupe-mongoose.sh
+        container: qc.doc_chewy-rose-saola
       github.com/stevenjgibbons/VIScERaL git:
         commands:
-        - /usr/bin/env sh .sqa/script.scaly-linen-hippopotamus.sh
-        container: qc.doc_tasty-cardinal-snake
+        - /usr/bin/env sh .sqa/script.lovely-mustard-axolotl.sh
+        container: qc.doc_homely-olive-sloth
       github.com/stevenjgibbons/VIScERaL markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-myrtle-numbat.sh
-        container: qc.doc_clammy-cerulean-coati
+        - /usr/bin/env sh .sqa/script.snippy-heliotrope-cuscus.sh
+        container: qc.doc_droopy-auburn-fousek
   QC.Lic:
     repos:
       github.com/stevenjgibbons/VIScERaL licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.droopy-blue-fowl.sh
-        container: qc.lic_skimpy-turquoise-harrier
+        - /usr/bin/env sh .sqa/script.muzzy-indigo-deer.sh
+        container: qc.lic_stinky-seashell-discus
   QC.Met:
     repos:
       github.com/stevenjgibbons/VIScERaL cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-cerulean-chihuahua.sh
-        container: qc.met_skinny-cream-eel
+        - /usr/bin/env sh .sqa/script.flimsy-cardinal-snake.sh
+        container: qc.met_sickly-rose-chihuahua
   QC.Sec:
     repos:
       github.com/stevenjgibbons/VIScERaL bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.crabby-asparagus-cougar.sh
-        container: qc.sec_muzzy-lemon-moth
+        - /usr/bin/env sh .sqa/script.shabby-harlequin-capybara.sh
+        container: qc.sec_freaky-black-moorhen
   QC.Sty:
     repos:
       github.com/stevenjgibbons/VIScERaL flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-zucchini-seahorse.sh
-        container: qc.sty_queasy-mauve-serval
+        - /usr/bin/env sh .sqa/script.beady-smalt-deer.sh
+        container: qc.sty_seedy-myrtle-mau
   QC.Ver:
     repos:
       github.com/stevenjgibbons/VIScERaL get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.cloudy-coral-audemer.sh
-        container: qc.ver_lovely-azure-hamster
+        - /usr/bin/env sh .sqa/script.squeaky-sepia-caracal.sh
+        container: qc.ver_beady-firebrick-budgerigar
 timeout: 5400
